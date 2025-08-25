@@ -37,6 +37,7 @@ function App() {
       setCounter(counter);
     }
   };
+
   return (
     <>
       <h1>Welcome to counting system</h1>
