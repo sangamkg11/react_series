@@ -5,13 +5,26 @@ import "./App.css";
 
 function App() {
   let [counter, setCounter] = useState(5);
+  // // let counter = 15;
+  // const addValue = () => {
+  //   if (counter >= 20) {
+  //     return;
+  //   } else {
+  //     // counter += 1;
+  //     setCounter(counter + 1);
+  //     console.log("clicked", counter);
+  //   }
+  // };
+
   // let counter = 15;
   const addValue = () => {
     if (counter >= 20) {
       return;
     } else {
       // counter += 1;
-      setCounter(counter + 1);
+      setCounter((prev) => prev + 1);
+      setCounter((prev) => prev + 1);
+      setCounter((prev) => prev + 1);
       console.log("clicked", counter);
     }
   };
